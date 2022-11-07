@@ -1,0 +1,28 @@
+@import '../../assets/style/mixin';
+
+.container{
+  .map{
+    width: 520px;
+    height: 220px;
+    margin: 0 10px 30px 10px;
+
+    @include media(1383px) {
+      width: 480px;
+    }
+    @include media(1313px) {
+      width: 420px;
+    }
+    @include media(1040px) {
+      width: 400px;
+    }
+    @include media(940px) {
+      width: 520px;
+    }
+    @include media(570px) {
+      width: 310px;
+    }
+    @include media(370px) {
+      width: 290px;
+    }
+  }
+}

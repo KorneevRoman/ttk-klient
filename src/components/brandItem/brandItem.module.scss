@@ -1,0 +1,35 @@
+@import "../../assets/style/mixin";
+
+.block {
+  box-sizing: border-box;
+  height: 80px;
+  width: 111px;
+  border-radius: 5px;
+  border: 1px solid #F0F0F0;
+  transition: .3s;
+  margin: 5px;
+  @include media(730px){
+    width: 150px;
+  }
+  &:hover{
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+  }
+  a {
+    height: 100%;
+    width: 100%;
+    color: #404348;
+    font-size: .85em;
+    line-height: 1.2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    img {
+      min-height: 25px;
+      max-height: 40px;
+      max-width: 90%;
+      margin-bottom: 5px;
+    }
+  }
+}

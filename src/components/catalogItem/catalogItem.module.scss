@@ -1,0 +1,47 @@
+.block {
+  padding: 0 15px 0 15px;
+  transition: all 0.2s;
+  margin-bottom: 24px;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 220px;
+    min-height: 65px;
+    border: 1px solid rgb(240 240 240);
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: all 0.5s;
+
+    &:hover {
+      border: 1px solid #2D98AC;
+      box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+
+      .title {
+        padding-left: 10px;
+        span {
+          color: #2D98AC;
+        }
+      }
+    }
+
+    .title {
+      max-width: 130px;
+      transition: all 0.5s;
+
+      span {
+        color: #404348;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: .8em;
+        text-transform: uppercase;
+        transition: all 0.5s;
+      }
+    }
+    img{
+      margin-left: 10px;
+    }
+
+  }
+}

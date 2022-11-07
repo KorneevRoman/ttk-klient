@@ -1,0 +1,31 @@
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 0 10px;
+
+  input {
+    padding: 8px;
+    width: 182px;
+    height: 20px;
+    border: 1px solid rgb(240 240 240);
+    outline: none;
+    border-radius: 5px 0 0 5px;
+
+  }
+
+  button {
+    background: rgb(240 240 240);
+    border: none;
+    width: 40px;
+    height: 38px;
+    border-radius: 0 5px 5px 0;
+
+    img {
+      width: 15px;
+      height: 15px;
+      color: black;
+    }
+  }
+}

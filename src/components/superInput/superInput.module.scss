@@ -1,0 +1,37 @@
+@import "../../assets/style/mixin";
+.container{
+  position: relative;
+
+  .block{
+    display: none;
+    width: 65px;
+    height: 100%;
+    background: rgb(240 240 240);
+    align-items: center;
+    justify-content: center;
+    @include media(1000px) {
+      display: flex;
+    }
+    img{
+      width: 15px;
+      height: 15px;
+      color: black;
+    }
+  }
+  .positionSmall{
+    position: absolute;
+    top: 75px;
+    right: 60px;
+  }
+  .full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .small{
+    @include media(1000px) {
+      display: none;
+    }
+  }
+}

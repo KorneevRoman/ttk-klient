@@ -1,0 +1,28 @@
+@import "./formModal.module";
+
+.container {
+  @extend .container;
+
+  .block {
+    flex-direction: column;
+
+    hr {
+      margin: 10px 0;
+      background: black;
+    }
+
+    .item {
+      display: flex;
+
+      .title {
+        min-width: 130px;
+        margin: 0 20px 0 0;
+      }
+
+      span {
+        margin: 0;
+        text-align: left;
+      }
+    }
+  }
+}
