@@ -14,7 +14,7 @@ export const Footer = () => {
                 <div className={s.container}>
                     <div className={s.contactsBlock}>
                         <TitleFooter title={'КОНТАКТЫ'}/>
-                        <a href="mailto:info@gammavector.ru"><Icon icon={mail}/>info@gammavector.ru</a>
+                        <a href="mailto:info@ttk-rus.ru"><Icon icon={mail}/>info@ttk-rus.ru</a>
                         <a href="tel:+79773361819"><Icon icon={phone}/>8(977) 336-18-19</a>
                         <a href="tel:+79031517271"><Icon icon={phone}/>8(903) 151-72-71</a>
                         <span><Icon icon={calendar}/>ПН - ПТ 8<span className={s.sup}>00</span>-19<span className={s.sup}>00</span></span>

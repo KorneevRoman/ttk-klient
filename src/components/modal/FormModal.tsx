@@ -51,7 +51,7 @@ export const FormModal: React.FC<ModalContainerPropsType> = ({children}) => {
         },
         onSubmit: values => {
             setLoading(true)
-            axios.post('https://smpt-gmail.vercel.app/sendMessage/', {...values})
+            axios.post('https://ttk-server.vercel.app/sendMessage/', {...values})
                 .then(res => {
                         setSuccessfulSending('res')
                         formik.resetForm()

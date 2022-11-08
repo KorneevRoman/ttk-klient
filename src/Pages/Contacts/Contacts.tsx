@@ -24,7 +24,7 @@ export const Contacts = () => {
                                     <a href="tel:+79031517271">
                                         <Icon icon={phone}/>
                                         <span className={s.tel}>8(903) 151-72-71</span>
-                                        <span>Виктор Пушишин</span>
+                                        <span>Пушишин Виктор</span>
                                     </a>
                                     <a href="tel:+79773361819">
                                         <Icon icon={phone}/>
@@ -34,7 +34,7 @@ export const Contacts = () => {
                                 </div>
                                 <div className={s.infoBlock}>
                                     <h3>почта:</h3>
-                                    <a href="mailto:info@gammavector.ru"><Icon icon={mail}/>info@gammavector.ru</a>
+                                    <a href="mailto:info@ttk-rus.ru"><Icon icon={mail}/>info@ttk-rus.ru</a>
                                 </div>
                             </div>
                         </div>

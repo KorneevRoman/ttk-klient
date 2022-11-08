@@ -14,7 +14,7 @@ export const Info = () => {
                     <span>  БЦ Эталон, Москва, ул.Большая Черкизовская 24а стр.1</span>
                 </div>
                 <div className={s.info}>
-                    <a href="mailto:info@gammavector.ru"><Icon icon={mail}/> info@gammavector.ru</a>
+                    <a href="mailto:info@ttk-rus.ru"><Icon icon={mail}/>info@ttk-rus.ru</a>
                     <a href="tel:+79031517271"><Icon icon={phone}/> 8(903) 151-72-71</a>
                 </div>
             </div>
