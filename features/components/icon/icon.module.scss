@@ -1,0 +1,25 @@
+.container {
+  display: inline-block;
+  .block {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+
+    svg {
+      width: 15px;
+      height: 15px;
+      g{
+        path{
+          stroke: #fff;
+          fill: #fff;
+        }
+      }
+      path{
+        stroke: #fff;
+        //fill: #fff;
+      }
+    }
+  }
+}
