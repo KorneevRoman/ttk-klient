@@ -15,7 +15,7 @@ export const Footer = () => {
                     <div className={s.contactsBlock}>
                         <TitleFooter title={'КОНТАКТЫ'}/>
                         <Link href="mailto:info@ttk-rus.ru"><Icon icon={<Mail/>}/>info@ttk-rus.ru</Link>
-                        <Link href="tel:+79773361819"><Icon icon={<Phone/>}/>8(968) 978-18-19</Link>
+                        <Link href="tel:+79689781819"><Icon icon={<Phone/>}/>8(968) 978-18-19</Link>
                         <span><Icon icon={<Calendar/>}/>ПН - ПТ 8<span className={s.sup}>00</span>-19<span className={s.sup}>00</span></span>
                     </div>
                     <div className={s.requisitesBlock}>

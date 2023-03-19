@@ -58,8 +58,8 @@ export const BurgerNav = () => {
                                    onSearchClick={onSearchClick}/>
                         </div>
                         <div className={s.info}>
-                            <a href="tel:+79031517271"><Icon icon={<Phone/>}/> 8(903) 151-72-71</a>
-                            <a href="mailto:info@gammavector.ru"><Icon icon={<Mail/>}/>info@gammavector.ru</a>
+                            <Link href="tel:+79689781819"><Icon icon={<Phone/>}/>8(968) 978-18-19</Link>
+                            <a href="mailto:info@ttk-rus.ru"><Icon icon={<Mail/>}/>info@ttk-rus.ru</a>
                             <span> <Icon icon={<Location/>}/>БЦ Эталон, Москва, ул.Большая Черкизовская 24а стр.1</span>
                         </div>
                         <FormModal>

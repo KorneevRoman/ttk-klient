@@ -15,7 +15,7 @@ export const Info = () => {
                 </div>
                 <div className={s.info}>
                     <a href="mailto:info@ttk-rus.ru"><Icon icon={<Mail/>}/>info@ttk-rus.ru</a>
-                    <a href="tel:+79031517271"><Icon icon={<Phone/>}/> 8(968) 978-18-19</a>
+                    <a href="tel:+79689781819"><Icon icon={<Phone/>}/> 8(968) 978-18-19</a>
                 </div>
             </div>
         </div>
